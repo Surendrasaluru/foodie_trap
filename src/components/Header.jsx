@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
     <div className="text-black flex flex-row justify-between">
@@ -8,7 +10,9 @@ const Header = () => {
       />
 
       <ul className="flex flex-row gap-4 justify-evenly text-xl font-semibold place-items-center font-mono py-2 px-4 text-orange-500">
-        <li className="mx-8">Home</li>
+        <Link>
+          <li className="mx-8">Home</li>
+        </Link>
         <li className="mx-8">Help</li>
         <li className="mx-8">Cart</li>
       </ul>
