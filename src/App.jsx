@@ -1,9 +1,6 @@
 import Header from "./components/Header";
-import Card from "./components/Card";
 
-import Shimmer from "./components/Shimmer";
 import { Outlet } from "react-router-dom";
-import { RestaurantContainer } from "./components/RestaurantContainer";
 
 const App = () => {
   return (

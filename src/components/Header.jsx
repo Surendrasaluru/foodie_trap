@@ -10,11 +10,15 @@ const Header = () => {
       />
 
       <ul className="flex flex-row gap-4 justify-evenly text-xl font-semibold place-items-center font-mono py-2 px-4 text-orange-500">
-        <Link>
+        <Link to="/">
           <li className="mx-8">Home</li>
         </Link>
-        <li className="mx-8">Help</li>
-        <li className="mx-8">Cart</li>
+        <Link to="/help">
+          <li className="mx-8">Help</li>
+        </Link>
+        <Link to="/cart">
+          <li className="mx-8">Cart</li>
+        </Link>
       </ul>
     </div>
   );
